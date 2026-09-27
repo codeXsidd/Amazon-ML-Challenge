@@ -1,0 +1,37 @@
+# Large data files and models
+dataset/
+**/dataset/
+output/
+**/output/
+checkpoints/
+**/checkpoints/
+
+# Binary and data file extensions
+*.tsv
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.pkl
+*.bin
+
+# Temporary or extracted submission folders
+flying ninjas_submission/
+*submission/
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
