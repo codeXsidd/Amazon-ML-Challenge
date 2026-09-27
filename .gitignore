@@ -1,23 +1,19 @@
-# Large data files and models
+# Large datasets and models
 dataset/
 **/dataset/
-output/
-**/output/
+student_resource/output/
 checkpoints/
 **/checkpoints/
 
-# Binary and data file extensions
-*.tsv
-*.csv
-*.parquet
+# GitHub hard limit is 100 MB. candidate_pairs.tsv is 461.7 MB
+**/candidate_pairs.tsv
+candidate_pairs.tsv
+
+# Binary archives
 *.zip
 *.tar.gz
 *.pkl
 *.bin
-
-# Temporary or extracted submission folders
-flying ninjas_submission/
-*submission/
 
 # Python environment & cache
 __pycache__/
